@@ -1,0 +1,238 @@
+@font-face {
+    font-family: regular;
+    src: url(fonts/ProximaNova-Regular.otf);
+}
+@font-face {
+    font-family: bold;
+    src: url(fonts/Proxima\ Nova\ Alt\ Bold.otf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    height: 100px;
+    background-color: #2d412f;
+    position:sticky;
+    top: 0;
+    z-index: 10;
+}
+.offers{
+    left: 76px;
+    color: #fff;
+    font-family: "Lato",sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.menus{
+    left: 50px;
+    font-family: "Lato",sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.book-a-table{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: Bebas Neue;
+    background: #2d412f;
+    border: 1px solid #fff;
+    letter-spacing: 1.5px;
+}
+
+    
+
+/* .mid{
+    height: 99rem;
+    /* margin: 30px 100px 0 ; */
+.heading{
+    color: #2d412f;
+    font-size: 38px;
+}
+.sub-heading{
+    font-size: 24px;
+    color: #2d412f;
+    font-family: bold;
+}
+.sub-heading1{
+    font-size: 16px;
+}
+.heading-bold{
+    color: #2d412f;
+    font-size: 34px;
+    font-family: bold;
+    letter-spacing: .005px;
+}
+.heading-bold-p{
+    font-family: regular;
+    color: #2d412f;
+    font-family: regular;
+    letter-spacing: .005px;
+}   
+.bg-img{
+    background-image: url(bookingbg.jpg);
+    /* width: 100%; */
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 50rem;
+    /* display: flex;
+    justify-content: center; */
+    
+}
+/* .carousel-item img{
+    height: 10%;
+} */
+/* .txt-head{
+    position: relative;
+    left: 15%;
+    top: 8%;
+} */
+.form1{
+    height: 20em;
+    width: 60em;
+    /* background-color: #2d412f; */
+
+}
+.text-head1{
+    font-family: bold;
+    font-size: 4rem;
+    
+}
+.text-head2{
+    font-size: 3rem;
+}
+.menu-bg{
+    background-color: none;
+}
+.img-img{
+    background-image: url(bookingbg.jpg);
+    /* width: 100%; */
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+@media screen and (max-width:993px){
+    .menu-bg{
+        background-color:black;
+        display: flex;
+        justify-content: center;
+    }
+    .book-a-table{
+        margin-left: 35px;
+    }
+} 
+/* @media screen and (max-width:706px){
+    .text-head1{
+        font-size: 2rem;
+    }
+    .text-head2{
+        font-size: 1rem;
+    }
+}  */
+@media screen and (max-width:323px){
+  .heading-bold{
+    font-size: 30px;
+  }
+} 
+@media screen and (max-width:305px){
+    .heading-bold{
+      font-size: 20px;
+    }
+  } 
+  .footer-1{
+    height: 550px;
+    background-color:#2d412f;
+    /* background-image: url(bookingbg.jpg);
+    background-repeat: no-repeat;
+    background-size: auto; */
+  }
+  .heading1{
+    font-size: 6em;
+    font-family: bold;
+  }
+  .heading2{
+    font-size: 5em;
+    font-family: regular;
+    line-height: .1em;
+    color: rgb(204, 180, 151);
+  }
+  @media  screen and (max-width:1000px){
+    .heading1{
+        font-size: 4em;
+
+    }
+    .heading2{
+        font-size: 2em;
+    }
+    .footer-1{
+        height: 600px;
+        transition: all .1s ease;
+    }
+  }
+  @media  screen and (max-width:387px){
+    .heading1{
+        font-size: 3em;
+
+    }
+    .heading2{
+        font-size: 1em;
+    }
+   .footer-1{
+    height: 550px;
+   }
+  }
+  .footer-logo{
+    margin-bottom: 30px;
+  }
+  .footer-heading{
+    font-size: 2em;
+    text-transform: uppercase;
+    font-family: regular;
+    color: #3e5040;
+  }
+  .strong{
+    color: #212529;
+    text-transform: uppercase;
+    font-family: bold;
+    letter-spacing: .01em;
+    font-size: 1.2em;
+  }
+  .footer-heading p{
+    color: #212529;
+    text-transform: uppercase;
+    letter-spacing: .01em;
+  }
+  .terms li{
+    list-style: none;
+   
+  }
+  @media screen and (max-width:486px){
+  
+    .book-btn{
+        display: none;
+    }
+  }
+  .footer-logo{
+    width: 20em;
+    transition: all .2s ease;
+  }
+  @media screen and (max-width:312px){
+    
+    .footer-logo{
+        width: 10em;
+       transition: all .2s ease;
+    }
+    .footer-img{
+        display: none;
+    }
+  }
+  .logo{
+    width: 20em;
+  }
+  @media screen and (max-width:380px) {
+    .logo{
+        width: 12em;
+    }
+    
+  }
+ 
